@@ -691,7 +691,6 @@ input[type="radio"]:checked+label::after {left: 5px;}
   .next-to-carousel-banners .banner-wrapper .b-cosmetic a > img {top: -9890px;}
   .flags.flags-extra .flag-discount .price-save {font-size: 10px;}
   .flags.flags-extra .flag-discount {width: 36px;height:36px;}
-  .products-block .p .name {-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}
 }
 
 @media screen and (max-width: 500px) {
