@@ -722,6 +722,11 @@ input[type="radio"]:checked+label::after {left: 5px;}
   #footer .f-list a, #footer .password-helper a, #footer .news-item-widget a, #footer .categories .topic>a {margin-bottom: 15px;}
   #footer h4 {margin-bottom: 25px;}
   #footer .footer-newsletter h4 {font-size: 23px;}
+  .footer-links-icons {
+    padding: 0px 0px;
+}
+.footer-icons {
+  display: none;}
   .custom-footer>div:nth-child(2), .custom-footer>div:first-child {padding: 0 15px;}
   .contact-box ul li a, .contact-text .contact-box ul li a {font-size: 18px;}
   .banners-row {margin-left: 0;margin-right:0;}
