@@ -229,6 +229,11 @@ border-radius: 5px;
 margin: 0px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
 }
+.order-information, .order-delivery, .order-payment {
+  font-size: 21px;}
+div [data-testid="signin"] span {display:none}
+.news-item-widget {
+ margin-bottom: 0px;}
 
 /* Instagram */
 .insta-wrap {position: relative;padding-top:80px;background-color: #000; text-align:center;padding-bottom:100px;}
@@ -245,7 +250,7 @@ margin: 0px;
 .social-wrapper .title-wrap span {color: #AAAAAA;font-size: 23px;display:block;text-transform: none;font-weight:400;}
 
 /* Patička */
-#footer {padding-top: 50px;}
+#footer {padding-top: 50px; margin-top:0px; border-top-color: #fff;}
 .in-index #footer {border:none;background-color:#fff;margin-top:0;}
 #footer .f-list a {display: block;}
 #footer>.container {background-color: transparent;}
@@ -411,6 +416,10 @@ table.detail-parameters tbody tr th, table.detail-parameters tbody tr td {paddin
 .slick-arrow.slick-prev {right: 61px;}
 .add-to-cart .parameter-dependent.default-variant:nth-child(2) {display: none;}
 .p-basic-info-block .block .p-code > span:last-child.parameter-dependent.default-variant {display: none;}
+.homepage-texts-wrapper .welcome {display:none;}
+#content .filters-wrapper > div:first-of-type, #footer .filters-wrapper>div:first-of-type {display: none;}
+.order-information, .order-delivery, .order-payment {
+  font-size: 21px;}
 
 /* Košík */
 .empty-cart-boxes .col-md-6 {width:100%;}
@@ -479,6 +488,9 @@ input[type="radio"]:checked+label::after {left: 5px;}
   .cart-window-visible .place-cart-here {width:75%;}
   .columns-4 #cboxContent .products-block > div, .columns-3 .products-block.products-additional > div:not(.slick-list), .columns-4 .products-block.products-additional>div:not(.slick-list) {width: 25%;}
   .custom-footer > div:nth-child(3) {width: 50%;}
+  .columns-3 .products-block > div, .columns-4 .products-block>div {
+    width: 25%;
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -646,7 +658,7 @@ input[type="radio"]:checked+label::after {left: 5px;}
   .in-index .insta-wrap {margin-top: 25px;}
   .in-index .insta-wrap::before {height: 120px;top: -100px;}
   .in-index .insta-wrap::after {top: 60px;}
-  .homepage-texts-wrapper .welcome {min-height: auto;margin-top: 75px;}
+  .homepage-texts-wrapper .welcome {display:none;}
   body {font-size: 15px;}
   .param-filter-top form fieldset {width: auto;}
   #content .filter-section fieldset div, #footer .filter-section fieldset div {width: auto;}
