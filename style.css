@@ -121,6 +121,65 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 .carousel-control.right::before {content: '';border:none;background: url('https://www.octobee.cz/user/documents/upload/icon/arrow-left.svg') no-repeat;background-size: 18px auto;-webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
 .carousel-control.left:hover::before, .carousel-control.right:hover::before {background: url('https://www.octobee.cz/user/documents/upload/icon/arrow-left-hover.svg') no-repeat;background-size: 18px auto;} 
 .carousel-control::before {height:34px;}
+#footer {
+  border-top-color: #ffffff;
+  margin-top: 0px;}
+.products-block > div .p .p-bottom > div .p-tools {
+  right: 0;}
+  
+.products-block > div .p {
+box-shadow: 0 0 10px rgb(0 0 0 / 10%) !important;
+}
+.products-block > div .p .p-bottom > div .p-tools {
+  padding-bottom: 0 !important;
+}
+div [itemprop="about"] p {display:none;}
+.navigation-in .navigationActions {
+  border-color: #e6e6e6;
+  display: none;
+}
+.products-block > div .p .p-bottom > div .p-tools>.btn:last-child {
+  border-right-style: solid;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  width: auto;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 13px;
+  }
+.benefitBanner__item {
+  margin-bottom: 0 !important;
+}
+
+.benefitBanner__link {
+  width: 100%;
+}
+
+.benefitBanner__item>* {
+  padding-bottom: 15px;
+  border-bottom: solid 3px transparent;
+}
+
+.benefitBanner__link:hover {
+  border-color: #e72125;
+}
+.benefitBanner b {
+  color: #e72125;
+  font-size: 14px;
+}
+.benefitBanner span {
+  font-size: 14px;
+}
+
+.benefitBanner {
+  border-bottom: solid 1px #dadada;
+}
+ .user-action .user-action-in {
+  padding: 38px 0 19px;
+  margin-top: 30px;
+}
 
 
 /* Tlačítka */
