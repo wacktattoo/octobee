@@ -44,7 +44,7 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 /* Hlavička */
 #header .container {z-index: 3;}
 #header .site-name a span {display: none;}
-#header .site-name a {background: url('https://www.octobee.cz/user/documents/upload/icon/logo5.png') center center no-repeat; background-size: 100% auto;height:10px;width:182px;transition: none;}
+#header .site-name a {background: url('https://www.octobee.cz/user/documents/upload/icon/.png') center center no-repeat; background-size: 100% auto;height:10px;width:182px;transition: none;}
 #header .site-name a:hover {background: url('https://www.octobee.cz/user/documents/upload/icon/logo-hover5.png') center center no-repeat; background-size: 100% auto;}
 #header .site-name a.text-logo {padding-top: 0px;padding-bottom:0px;}
 .container.navigation-wrapper {display:flex;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-align: center;-moz-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
