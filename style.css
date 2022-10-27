@@ -67,7 +67,7 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 .navigation-buttons a[data-target="search"]:hover {background-color: transparent;}
 .menu-helper.empty {width: 0;height:60px;}
 .menu-helper {width: auto;}
-.navigation-buttons > a[data-target="cart"] i {width:14px;height:14px;padding:0;font-size:9px;font-weight:500;color:#000;background-color: #e72125;left:auto;right:-7px;top:15px;}
+.navigation-buttons > a[data-target="cart"] i {width:14px;height:14px;padding:0;font-size:9px;font-weight:500;color:#fff;background-color: #e72125;left:auto;right:-7px;top:15px;}
 .navigation-buttons .dropdown {padding-right: 0;height: 40px;display: none;}
 #header .site-name a img {display: none;}
 .navigation-buttons .dropdown>button {padding: 2px;border:none;}
