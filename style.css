@@ -213,7 +213,7 @@ div [itemprop="about"] p {display:none;}
 .flags {top: 18px;left:0;}
 .flags-default .flag, .flag {font-size: 9px;font-weight:700;padding: 2px 8px;}
 .products-block > div .p .p-bottom > div .p-tools {padding: 6px 0 0;position: absolute !important; margin-top: 16px;}
-.products-block > div .p {border: none; box-shadow: unset !important;}
+.products-block > div .p {border: none;}
 .flags-default .flag::before, .flags-default .flag:after {display: none;}
 .flags-extra .price-standard {display: none;}
 .products-block .p:hover >a::after {opacity:1;}
