@@ -455,7 +455,7 @@ table.detail-parameters tbody tr th, table.detail-parameters tbody tr td {paddin
 .p-variants-block table.detail-parameters tr {display: none;}
 .p-variants-block table.detail-parameters tr.variant-list {display:table-row;}
 .price-standard>span {font-size: 14px;}
-.price-standard {color: #AFAFAF;display:none;}
+.price-standard {color: #AFAFAF;}
 .price-save {font-size: 14px;font-weight:700;color: #e72125;}
 .p-final-price-wrapper>strong {font-weight:600;font-size: 29px;}
 .p-to-cart-block .add-to-cart-button.btn-conversion::before {content:'';background: url('https://www.octobee.cz/user/documents/upload/icon/ico-cart-btn.svg') center center no-repeat; background-size: 100% auto;height:25px;width:22px;display: inline-block;}
