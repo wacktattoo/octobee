@@ -1,4 +1,4 @@
-﻿body {font-size: 18px;color: #000;overflow-x: hidden;font-family: 'Montserrat', sans-serif;line-height: 1.4;}
+body {font-size: 18px;color: #000;overflow-x: hidden;font-family: 'Montserrat', sans-serif;line-height: 1.4;}
 .external-fonts-loaded body, body.blank-mode, .external-fonts-loaded h1, .external-fonts-loaded h2, .external-fonts-loaded h3, .external-fonts-loaded h4, .external-fonts-loaded h5, .external-fonts-loaded h6, .external-fonts-loaded .h1, .external-fonts-loaded .h2, .external-fonts-loaded .h3, .external-fonts-loaded .h4, .external-fonts-loaded .h5, .external-fonts-loaded .h6, .external-fonts-loaded .cart-table .main-link, .external-fonts-loaded .cart-related-name, .blank-mode h1, .blank-mode h2, .blank-mode h3, .blank-mode h4, .blank-mode h5, .blank-mode h6, .blank-mode .h1, .blank-mode .h2, .blank-mode .h3, .blank-mode .h4, .blank-mode .h5, .blank-mode .h6, .blank-mode .cart-table .main-link, .blank-mode .cart-related-name {font-family: 'Montserrat', sans-serif;}
 .overall-wrapper {overflow: hidden;}
 .news-item {display:block;margin-bottom: 15px;}
@@ -26,7 +26,7 @@ input[type="checkbox"]+label, input[type="radio"]+label {padding-left: 30px;font
 .form-control, select {background-color: #fff;border:1px solid #EBEBEB;height: 56px;color: #8a8a8a;font-size: 15px;}
 textarea.form-control {border-radius: 0px;}
 .form-control::placeholder {color: #000;font-size: 17px;}
-input[type="checkbox"]:checked+label::after {background: url('/user/documents/upload/icon/bila.svg') center center no-repeat; background-size: 11px auto;border:none;left:5px;} 
+input[type="checkbox"]:checked+label::after {background: url('https://www.octobee.cz/user/documents/upload/icon/bila.svg') center center no-repeat; background-size: 11px auto;border:none;left:5px;} 
 input[type="checkbox"]:checked+label::before {background-color: #e72125;}
 input[type="checkbox"]:checked+label::before, input[type="radio"]:checked+label::before {border-color: #e72125;}
 input[type="checkbox"]+label::before, input[type="radio"]+label::before {width:20px;height:20px;}
@@ -44,8 +44,8 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 /* Hlavička */
 #header .container {z-index: 3;}
 #header .site-name a span {display: none;}
-#header .site-name a {background: url('/user/documents/upload/icon/logo5.png') center center no-repeat; background-size: 100% auto;height:38px;width:182px;transition: none;}
-#header .site-name a:hover {background: url('/user/documents/upload/icon/logo-hover5.png') center center no-repeat; background-size: 100% auto;}
+#header .site-name a {background: url('https://www.octobee.cz/user/documents/upload/icon/logo5.png') center center no-repeat; background-size: 100% auto;height:38px;width:182px;transition: none;}
+#header .site-name a:hover {background: url('https://www.octobee.cz/user/documents/upload/icon/logo-hover5.png') center center no-repeat; background-size: 100% auto;}
 #header .site-name a.text-logo {padding-top: 0px;padding-bottom:0px;}
 .container.navigation-wrapper {display:flex;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-align: center;-moz-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
 .navigation-in>ul>li>a, .menu-helper > ul > li a {color: #fff;font-size: 13px;text-transform:uppercase;padding: 10px 5px;font-weight:600;border-top: 1px solid transparent;}
@@ -58,10 +58,10 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 #nav-manufacturers {display: none;}
 .navigation-buttons>a {border: none;width: auto;margin-left:30px;line-height: 36px;height:40px;}
 .navigation-buttons {border: none;}
-.ico-search {content: '';background: url('/user/documents/upload/icon/searchwhite.svg') center center no-repeat;background-size: 100% auto; width:27px;height:56px;display:block; cursor: pointer;}
-.navigation-buttons a[data-target="cart"]{background: url('/user/documents/upload/icon/cartwhite.svg') center top 8px no-repeat; background-size: 100% auto;height:37px;width:21px;display:block;}
+.ico-search {content: '';background: url('https://www.octobee.cz/user/documents/upload/icon/searchwhite.svg') center center no-repeat;background-size: 100% auto; width:27px;height:56px;display:block; cursor: pointer;}
+.navigation-buttons a[data-target="cart"]{background: url('https://www.octobee.cz/user/documents/upload/icon/cartwhite.svg') center top 8px no-repeat; background-size: 100% auto;height:37px;width:21px;display:block;}
 .navigation-buttons a[data-target="cart"]::before {display: none;}
-.navigation-buttons a[data-target="login"] {background: url('/user/documents/upload/icon/userwhite.svg') center center no-repeat; background-size: 100% auto;height:37px;width:23px;display:block;}
+.navigation-buttons a[data-target="login"] {background: url('https://www.octobee.cz/user/documents/upload/icon/userwhite.svg') center center no-repeat; background-size: 100% auto;height:37px;width:23px;display:block;}
 .navigation-buttons a[data-target="login"]::before {display: none;}
 .navigation-buttons a[data-target="search"]::before {font-weight: 400;}
 .navigation-buttons a[data-target="search"]:hover {background-color: transparent;}
@@ -84,11 +84,11 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 #header.header-fixed {position: fixed;top:0;-webkit-box-shadow: 0 6px 13px rgba(0, 0, 0, 0.09); box-shadow: 0 6px 13px rgba(0, 0, 0, 0.09);background-color: #fff;z-index: 998;left:0;right:0;padding-top: 0;padding-bottom:0;}
 .admin-bar {position: fixed;top:0px;}
 #header.header-fixed .navigation-in>ul>li>a {color: #000;}
-#header.header-fixed .site-name a {background: url('/user/documents/upload/icon/fixlogo2.png') center center no-repeat; background-size: 100% auto;}
-#header.header-fixed .site-name a:hover {background: url('/user/documents/upload/icon/fixhover2.png') center center no-repeat; background-size: 100% auto;}
+#header.header-fixed .site-name a {background: url('https://www.octobee.cz/user/documents/upload/icon/fixlogo2.png') center center no-repeat; background-size: 100% auto;}
+#header.header-fixed .site-name a:hover {background: url('https://www.octobee.cz/user/documents/upload/icon/fixhover2.png') center center no-repeat; background-size: 100% auto;}
 #header.header-fixed .navigation-buttons a[data-target="search"]::before {color: #000;}
-#header.header-fixed .navigation-buttons a[data-target="cart"]{background: url('/user/documents/upload/icon/cart.svg') center top 8px no-repeat; background-size: 100% auto;}
-#header.header-fixed .navigation-buttons a[data-target="login"] {background: url('/user/documents/upload/icon/user.svg') center center no-repeat; background-size: 100% auto;}
+#header.header-fixed .navigation-buttons a[data-target="cart"]{background: url('https://www.octobee.cz/user/documents/upload/icon/cart.svg') center top 8px no-repeat; background-size: 100% auto;}
+#header.header-fixed .navigation-buttons a[data-target="login"] {background: url('https://www.octobee.cz/user/documents/upload/icon/user.svg') center center no-repeat; background-size: 100% auto;}
 #header.header-fixed .navigation-buttons .dropdown>button {color: #000;border-color: #000;}
 #header.header-fixed .navigation-buttons a[data-target="search"]::before {font-weight: 600;}
 #header.header-fixed .menu-helper>span {background-color: #fff;color: #000;}
@@ -117,9 +117,9 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 .carousel-indicators li:nth-child(5)::before {content: '05';display:block;}
 .carousel-indicators li:nth-child(6)::before {content: '06';display:block;}
 .carousel-control {opacity: 1;}
-.carousel-control.left::before {content: '';border:none;background: url('/user/documents/upload/icon/arrow-left.svg') no-repeat;background-size: 18px auto;}
-.carousel-control.right::before {content: '';border:none;background: url('/user/documents/upload/icon/arrow-left.svg') no-repeat;background-size: 18px auto;-webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
-.carousel-control.left:hover::before, .carousel-control.right:hover::before {background: url('/user/documents/upload/icon/arrow-left-hover.svg') no-repeat;background-size: 18px auto;} 
+.carousel-control.left::before {content: '';border:none;background: url('https://www.octobee.cz/user/documents/upload/icon/arrow-left.svg') no-repeat;background-size: 18px auto;}
+.carousel-control.right::before {content: '';border:none;background: url('https://www.octobee.cz/user/documents/upload/icon/arrow-left.svg') no-repeat;background-size: 18px auto;-webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+.carousel-control.left:hover::before, .carousel-control.right:hover::before {background: url('https://www.octobee.cz/user/documents/upload/icon/arrow-left-hover.svg') no-repeat;background-size: 18px auto;} 
 .carousel-control::before {height:34px;}
 
 
@@ -157,7 +157,7 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 .products-block > div .p {border: none; box-shadow: unset !important;}
 .flags-default .flag::before, .flags-default .flag:after {display: none;}
 .flags-extra .price-standard {display: none;}
-.products-block .p>a::after {background: url('/user/documents/upload/icon/zoom.png') center center no-repeat; background-size: 100% auto; margin-left:-20px;width:40px;height:40px;opacity:0;-webkit-transition: opacity .2s ease-in-out;transition: opacity .2s ease-in-out;top:33%;}
+.products-block .p>a::after {background: url('https://www.octobee.cz/user/documents/upload/icon/zoom.png') center center no-repeat; background-size: 100% auto; margin-left:-20px;width:40px;height:40px;opacity:0;-webkit-transition: opacity .2s ease-in-out;transition: opacity .2s ease-in-out;top:33%;}
 .products-block .p:hover >a::after {opacity:1;}
 .products-block > div .p .p-bottom {min-height:86px;}
 .flags.flags-extra {bottom: 22px;right:42px;}
@@ -187,7 +187,7 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 .insta-wrap {position: relative;padding-top:80px;background-color: #000; text-align:center;padding-bottom:100px;}
 .in-index .insta-wrap {padding-top: 131px;}
 .in-index .insta-wrap::before {content:'';height:390px;top:-335px;left:0;right:0;position: absolute;width: 1920px;height: 392px;}
-.insta-wrap::after {content: '';background: url('/user/documents/upload/icon/insta-text4.png') top center no-repeat; position: absolute;top: 40px;left:45%;margin-left:-455px;width:1100px;display:block;height:350px;background-size: 100% auto;}
+.insta-wrap::after {content: '';background: url('https://www.octobee.cz/user/documents/upload/icon/insta-text4.png') top center no-repeat; position: absolute;top: 40px;left:45%;margin-left:-455px;width:1100px;display:block;height:350px;background-size: 100% auto;}
 .in-index .insta-wrap::after {top: -20px;}
 .insta-wrap .insta-link {margin-bottom: 20px;color:#fff;margin-bottom:65px;border-bottom: 1px solid #e72125;display:inline-block;}
 .insta-wrap .title {font-size: 29px;font-weight:600;color: #fff;text-transform: uppercase;}
@@ -250,7 +250,7 @@ input:-webkit-autofill:focus, input:-webkit-autofill:active  {-webkit-box-shadow
 .subcategories.with-image li a .image {height: 76px;width: 76px;position: relative;margin:0;overflow: hidden;}
 .subcategories.with-image li a .image img {position: absolute;top:-9999px;left:-9999px;right:-9999px;bottom:-9999px;margin:auto;min-height:100px;min-width:100px;max-width:none;max-height:none;}
 .subcategories.with-image li a .text {margin-left: 20px;max-width:120px;font-size:14px;font-weight:600;text-transform:uppercase;}
-.subcategories.with-image li a::after {content:'';background: url('/user/documents/upload/icon/ico-next-red.svg') no-repeat;background-size: 100% auto;width:7px;height:12px;display: block;position: absolute;right:22px;top:31px;}
+.subcategories.with-image li a::after {content:'';background: url('https://www.octobee.cz/user/documents/upload/icon/ico-next-red.svg') no-repeat;background-size: 100% auto;width:7px;height:12px;display: block;position: absolute;right:22px;top:31px;}
 .category-header input[type="radio"]:checked+label {border: none;background-color: transparent;border-bottom: 1px solid #e72125;color:#000000;font-weight: 600;}
 .category-header input[type="radio"]+label {margin-right: 50px;padding: 15px 0;background-color: transparent;border:none;text-transform:uppercase;margin-left:0;font-size: 16px;color:#878787;}
 .category-header input[type="radio"]+label:hover {background-color: transparent;color: #000000;}
@@ -283,9 +283,9 @@ body:not(.type-category) .sidebar {display: none;}
 .breadcrumbs>span>a, .breadcrumbs>span>span {padding: 10px 25px;}
 .breadcrumbs>span>a {text-decoration: underline;}
 .navigation-home-icon .sr-only:hover::after {color: #e72125;}
-.navigation-home-icon-wrapper::before {content: '';width:17px;height:20px;background-size: 100% auto;background: url('/user/documents/upload/icon/ico-home.svg') top center no-repeat;left:0;}
+.navigation-home-icon-wrapper::before {content: '';width:17px;height:20px;background-size: 100% auto;background: url('https://www.octobee.cz/user/documents/upload/icon/ico-home.svg') top center no-repeat;left:0;}
 .navigation-home-icon-wrapper #navigation-first a {padding-left: 20px;}
-.breadcrumbs>span>a::after {position:absolute;right:-10px;font-size: 100%;color: #C6C6C6;content: '';width:8px;height:5px;background-size: 100% auto;background: url('/user/documents/upload/icon/ico-next.svg') center center no-repeat;}
+.breadcrumbs>span>a::after {position:absolute;right:-10px;font-size: 100%;color: #C6C6C6;content: '';width:8px;height:5px;background-size: 100% auto;background: url('https://www.octobee.cz/user/documents/upload/icon/ico-next.svg') center center no-repeat;}
 
 /* Detail produktu */
 .p-image-wrapper .p-image {padding:0;margin-bottom: 15px;max-width: 660px;}
@@ -317,7 +317,7 @@ body:not(.type-category) .sidebar {display: none;}
 .advanced-parameter-inner img {border-radius: 0;}
 .advanced-parameter-inner {border: none;box-shadow: none;width: 60px;height:60px;border-radius: 0;}
 .advanced-parameter {border-radius: 0;width:60px;height:60px;}
-.detail-parameters select {background: url('/user/documents/upload/icon/ico-select.svg') right center no-repeat;max-width:365px;}
+.detail-parameters select {background: url('https://www.octobee.cz/user/documents/upload/icon/ico-select.svg') right center no-repeat;max-width:365px;}
 .advanced-parameter-inner.yes-before::before {background-image: none;height:2px;width:60px;position:absolute;top:-15px;left:0;background-color: #e72125;}
 .p-variants-block {padding-top:25px;padding-bottom:0;}
 .products-block .p-bottom .price-additional {font-size: 13px;color: #707070;}
@@ -335,9 +335,9 @@ body:not(.type-category) .sidebar {display: none;}
 .quantity .increase, .quantity-form .quantity .increase {right: 0px;}
 .quantity .decrease {left: 0px;right: auto;}
 .quantity .increase::before, .quantity .decrease::before, .quantity-form .quantity .increase:before, .quantity-form .quantity .decrease::before {content: '';width:12px;height:12px;display: inline-block;position: initial;}
-.quantity .decrease::before {background: url('/user/documents/upload/icon/ico-minus.svg') center center no-repeat;background-size: 100% auto;}
-.quantity .increase::before {background: url('/user/documents/upload/icon/ico-plus.svg') center center no-repeat;background-size: 100% auto;}
-.tick::before {content: '';background: url(/user/documents/upload/icon/ico-tick-green.svg) center center no-repeat;width: 14px;height: 12px;background-size: 100% auto;display: inline-block; position: relative;top: 2px;margin-right: 2px;}
+.quantity .decrease::before {background: url('https://www.octobee.cz/user/documents/upload/icon/ico-minus.svg') center center no-repeat;background-size: 100% auto;}
+.quantity .increase::before {background: url('https://www.octobee.cz/user/documents/upload/icon/ico-plus.svg') center center no-repeat;background-size: 100% auto;}
+.tick::before {content: '';background: url(https://www.octobee.cz/user/documents/upload/icon/ico-tick-green.svg) center center no-repeat;width: 14px;height: 12px;background-size: 100% auto;display: inline-block; position: relative;top: 2px;margin-right: 2px;}
 table.detail-parameters tbody tr th {min-width:auto;width:210px;}
 table.detail-parameters tbody tr th, table.detail-parameters tbody tr td {padding-bottom:15px;}
 .p-variants-block table.detail-parameters {width:100%;}
@@ -347,7 +347,7 @@ table.detail-parameters tbody tr th, table.detail-parameters tbody tr td {paddin
 .price-standard {color: #AFAFAF;display:none;}
 .price-save {font-size: 14px;font-weight:700;color: #e72125;}
 .p-final-price-wrapper>strong {font-weight:600;font-size: 29px;}
-.p-to-cart-block .add-to-cart-button.btn-conversion::before {content:'';background: url('/user/documents/upload/icon/ico-cart-btn.svg') center center no-repeat; background-size: 100% auto;height:25px;width:22px;display: inline-block;}
+.p-to-cart-block .add-to-cart-button.btn-conversion::before {content:'';background: url('https://www.octobee.cz/user/documents/upload/icon/ico-cart-btn.svg') center center no-repeat; background-size: 100% auto;height:25px;width:22px;display: inline-block;}
 .availability-amount {display:none;}
 .p-param-block {display:none;}
 .description-inner p {font-size: 16px;}
@@ -359,7 +359,7 @@ table.detail-parameters tbody tr th, table.detail-parameters tbody tr td {paddin
 .products .product.slick-slide {padding: 15px;}
 .slick-arrow {background-color: #000;width: 45px;height: 55px;border: none;position: absolute;top: -70px;right:15px;-webkit-transition: .2s ease-in-out;transition: .2s ease-in-out;}
 .slick-arrow:hover {background-color: #e72125;}
-.slick-arrow::before {background: url('/user/documents/upload/icon/ico-next-w.svg') center center no-repeat;background-size: 100% auto;width:7px;height:12px;content:'';display:block;margin:0 auto;}
+.slick-arrow::before {background: url('https://www.octobee.cz/user/documents/upload/icon/ico-next-w.svg') center center no-repeat;background-size: 100% auto;width:7px;height:12px;content:'';display:block;margin:0 auto;}
 .slick-arrow.slick-next::before {-webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
 .slick-arrow.slick-prev {right: 61px;}
 .add-to-cart .parameter-dependent.default-variant:nth-child(2) {display: none;}
